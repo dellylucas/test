@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.MainActivity">
+<Button
+    android:id="@+id/butAdd"
+    android:text="Agregar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="agreList"/>
+    <Button
+        android:id="@+id/butUpd"
+        android:text="Actualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="actList"/>
+    <Button
+        android:id="@+id/butDel"
+        android:text="Borrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="elimList"/>
+    <Button
+        android:id="@+id/butCons"
+        android:text="Consultar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="consuList"/>
+
+</LinearLayout>

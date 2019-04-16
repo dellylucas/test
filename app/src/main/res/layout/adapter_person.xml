@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgList"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/IdLb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/imgList"/>
+
+    <TextView
+        android:id="@+id/nameLb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/imgList"
+        android:layout_below="@+id/IdLb" />
+
+    <TextView
+        android:id="@+id/codLb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/imgList"
+        android:layout_below="@+id/nameLb" />
+
+    <TextView
+        android:id="@+id/ColLb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/imgList"
+        android:layout_below="@+id/codLb" />
+
+    <TextView
+        android:id="@+id/PromLb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/imgList"
+        android:layout_below="@+id/ColLb" />
+
+</RelativeLayout>
